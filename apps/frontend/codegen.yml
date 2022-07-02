@@ -1,0 +1,8 @@
+schema: ../backend/graphql/schema.gql
+documents: './**/*.gql'
+generates:
+  ./lib/graphql/schema.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typed-document-node

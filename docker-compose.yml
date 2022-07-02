@@ -1,0 +1,18 @@
+version: "3"
+services:
+  postgres:
+    image: timescale/timescaledb:latest-pg14
+    ports:
+      # Accessible from the host at port :35433
+      - "35433:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: docbot-labs
+    # Make sure log colors show up correctly
+    tty: true
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    tty: true
