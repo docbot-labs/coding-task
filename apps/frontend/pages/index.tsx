@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
+import Demo from "../components/Demo";
 
 const Dashboard: NextPage = () => {
-  return <div className="text-lg">Hello, World</div>;
+  return <Demo />;
 };
 
 export default Dashboard;

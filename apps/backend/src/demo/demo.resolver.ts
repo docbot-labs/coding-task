@@ -6,7 +6,7 @@ export class DemoResolver {
   @Query(() => Demo)
   demo() {
     return {
-      message: 'Hello World!',
+      message: 'Demo!',
     };
   }
 }
