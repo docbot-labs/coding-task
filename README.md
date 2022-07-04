@@ -4,6 +4,11 @@ Docbot provides extensions for Chrome, VS Code & IntelliJ to search across all y
 
 ![Chrome Extension](./chrome.png)
 
+# Prerequisites
+
+- NPM 7+
+- Docker
+
 # Github Integration
 
 We've receieved the following request from a user
