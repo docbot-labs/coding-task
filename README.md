@@ -14,7 +14,7 @@ Hey! It would be great to search Github repos, issues and pull requests. It'd be
 
 The task is to figure out with the team how to build and test this feature with users as quickly as possible.
 
-## Part 1 - Architecture
+## Part 1 - Architecture
 
 Working together, disucss the requirements for this feature and come up with a rough architecture. Researching and verifying constraints as you go.
 
